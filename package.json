@@ -10,7 +10,7 @@
     "dev": "next dev",
     "lint": "eslint. --ext .js, .jsx, .ts, .tsx --no-error-on-unmatched-pattern",
     "format": "prettier --write .",
-    "format:chck":"prettier --check .",
+    "format:check": "prettier --check .",
     "build": "next build",
     "start": "next start"
   },
@@ -21,6 +21,8 @@
   },
   "devDependencies": {
     "eslint": "^8.57.1",
-    "eslint-config-next": "^15.5.12"
+    "eslint-config-next": "^15.5.12",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1"
   }
 }
